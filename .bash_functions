@@ -30,3 +30,8 @@ cd() {
     builtin cd "$@" && ll -F
 }
 
+# 250916 Add alias function: The usage is, for example: addalias ..='cd ../../'
+addalias() {
+    echo "alias ${1}" >> $HOME/.bash_aliases
+}
+
