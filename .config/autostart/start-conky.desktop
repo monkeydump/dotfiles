@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Conky Launcher
+Comment=Launch Conky
+GenericName=Start Conky
+Exec=conkystartup.sh
+Terminal=false
+Type=Application
+StartupNotify=false
