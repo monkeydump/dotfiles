@@ -35,6 +35,13 @@ then use GNU stow to create symlinks
 $ stow .
 ```
 
+Problems might be solved by having stow 'adopt' what exists already
+
+```
+$ stow --adopt .
+```
+
+
 ## Video Tutorial
 
 ```
